@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:paddingVertical="20dp"
+    tools:context=".MainActivity">
+
+    <com.sunnni.library.KhuEditText
+        android:id="@+id/edt_sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint="@string/hint_sample"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:setIcon="@drawable/khu_ic_search" />
+
+    <com.sunnni.library.KhuButton
+        android:id="@+id/btn_sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:text="@string/word_done"
+        app:type="@string/khu_button_red" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

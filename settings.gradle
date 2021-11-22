@@ -1,0 +1,3 @@
+rootProject.name = "KhuDesignLibrary"
+include ':app'
+include ':Library'

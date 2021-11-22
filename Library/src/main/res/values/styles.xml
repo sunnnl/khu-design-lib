@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KhuButtonTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="KhuInputTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

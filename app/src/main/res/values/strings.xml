@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KhuDesignLibrary</string>
+
+    <string name="word_done">확인</string>
+
+    <string name="hint_sample">샘플 힌트입니다.</string>
+
+    <string name="error_no_message">메시지를 입력하세요.</string>
+</resources>

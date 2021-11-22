@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="khu_button_red">RED</string>
+    <string name="khu_button_blue">BLUE</string>
+    <string name="khu_button_grey">GREY</string>
+</resources>
