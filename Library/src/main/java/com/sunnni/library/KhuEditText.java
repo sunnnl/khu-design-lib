@@ -19,13 +19,11 @@ public class KhuEditText extends ConstraintLayout {
         super(ctx);
         init();
     }
-
     public KhuEditText(Context ctx, AttributeSet attrs){
         super(ctx, attrs);
         init();
         getAttrs(attrs);
     }
-
     public KhuEditText(Context ctx, AttributeSet attrs, int defStyle){
         super(ctx, attrs);
         init();
@@ -47,7 +45,6 @@ public class KhuEditText extends ConstraintLayout {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.KhuEditText);
         setTypedArray(typedArray);
     }
-
     private void getAttrs(AttributeSet attrs, int defStyle) {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.KhuEditText, defStyle, 0);
         setTypedArray(typedArray);

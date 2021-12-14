@@ -21,21 +21,15 @@ public class KhuButton extends ConstraintLayout {
     ConstraintLayout bg;
     TextView txt;
 
-    public static void showToast(Context ctx, String msg) {
-        Toast.makeText(ctx, msg, Toast.LENGTH_SHORT).show();
-    }
-
     public KhuButton(Context ctx) {
         super(ctx);
         init();
     }
-
     public KhuButton(Context ctx, AttributeSet attrs) {
         super(ctx, attrs);
         init();
         getAttrs(attrs);
     }
-
     public KhuButton(Context ctx, AttributeSet attrs, int defStyle) {
         super(ctx, attrs);
         init();
@@ -56,7 +50,6 @@ public class KhuButton extends ConstraintLayout {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.KhuButton);
         setTypedArray(typedArray);
     }
-
     private void getAttrs(AttributeSet attrs, int defStyle) {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.KhuButton, defStyle, 0);
         setTypedArray(typedArray);
@@ -81,10 +74,7 @@ public class KhuButton extends ConstraintLayout {
     }
 
     void setBg(int bg_resID) { bg.setBackgroundResource(bg_resID); }
-
     void setText(String text_string) { txt.setText(text_string); }
-
     void setText(int text_resID) { txt.setText(text_resID); }
-
     void setTextColor(int color) { txt.setTextColor(color); }
 }

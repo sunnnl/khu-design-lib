@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="KhuButton">
-        <attr name="bg" format="reference|integer" />
-        <attr name="symbol" format="reference|integer" />
+        <!--<attr name="bg" format="reference|integer" />-->
         <attr name="text" format="reference|string" />
         <attr name="type" format="string" />
         <!--<attr name="textColor" format="reference|integer" />-->
@@ -10,7 +9,6 @@
 
     <declare-styleable name="KhuEditText">
         <attr name="setIcon" format="reference|integer" />
-        <attr name="hasIcon" format="boolean" />
         <attr name="hint" format="reference|string" />
     </declare-styleable>
 </resources>
