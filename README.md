@@ -24,3 +24,7 @@ implementation 'com.github.sunnnl:khu-design-lib:Tag'
 ### KhuEditText
 * hint : Input 입력 시, 사용자에게 제공할 힌트를 작성합니다.
 * setIcon : EditText 내부에 아이콘을 설정할 수 있습니다. 해당 속성을 사용하지 않으면 아이콘이 나타나지 않습니다.
+
+## Sample App
+app 디렉토리에서 샘플 애플리케이션의 소스를 확인할 수 있습니다.
+![sample_screenshot](./Sample.png)
